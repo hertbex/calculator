@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+
+}
+.calc{
+    width: 400px;
+    border: 3px gainsboro solid;
+    border-radius: 3px;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+}
+button{
+    padding: 10px 20px;
+    background-color: gainsboro;
+    border: 0;
+    outline: none;
+    width: 32%;
+    transition-duration: .1s;
+}
+button, input{
+    margin: 5px 0;
+}
+input{
+    width: 99%;
+    font-size: 16px;
+    background-color: white;
+    border: 2px gainsboro solid;
+    padding: 5px;
+    text-align: right;
+}
+button:hover{
+    background-color: rgb(180, 180, 180);
+}
+button:active{
+    background-color: gray;
+}
